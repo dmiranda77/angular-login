@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "age": 20,
+      "active": true
+    },
+    {
+      "name": "Jose Jones",
+      "age": 2,
+      "active": true,
+      "id": "4"
+    },
+    {
+      "id": "452c",
+      "name": "Jack Rambo",
+      "age": 2,
+      "active": true
+    }
+  ],
+  "books": [
+    {
+      "title": "Harry Potter",
+      "description": "",
+      "author": "J.K. Rowling",
+      "isbn": "98912813655",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "980909728"
+    },
+    {
+      "id": "1bdb",
+      "title": "The Selection I",
+      "description": null,
+      "author": "Kiera Cass",
+      "isbn": "1234223"
+    },
+    {
+      "id": "df52",
+      "title": "Gone Girl",
+      "description": null,
+      "author": "Gillian Flynn",
+      "isbn": "7816255"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "How to Sew a Dress",
+      "description": "Brief procedure to sew a Dress",
+      "author": "Diana Miranda",
+      "comments": "Very helpful tutorial! Must try guys!!!!",
+      "id": "1"
+    },
+    {
+      "id": "b93d",
+      "title": "How to Cook Siniganggang",
+      "description": "so asim",
+      "author": "Diana Miranda",
+      "comments": null
+    },
+    {
+      "id": "c8b2",
+      "title": "Egg Soy recipe",
+      "description": "this is my menu for the marinated egg soy recipe",
+      "author": "Diana Miranda",
+      "comments": "Yummy!"
+    },
+    {
+      "id": "39af",
+      "title": "Angular Project Bascis",
+      "description": "Give the major details about creating an angular project",
+      "author": "Diana Miranda",
+      "comments": null
+    }
+  ]
+}

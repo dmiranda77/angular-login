@@ -1,0 +1,57 @@
+// login.component.scss
+
+// Variables
+$primary-color: #007bff; // Change to your desired primary color
+$button-hover-color: #0056b3; // Change to your desired button hover color
+
+// Font
+$text-font: Arial, sans-serif; // Change to your desired font family
+
+// Styling
+.login-container {
+  font-family: $text-font; // Apply font family to the login container and its children
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+h2 {
+  font-family: $text-font; // Apply font family to heading elements
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  font-family: $text-font; // Apply font family to input fields and buttons
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: $primary-color;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: $button-hover-color;
+}
